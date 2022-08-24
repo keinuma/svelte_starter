@@ -1,0 +1,10 @@
+name = "svelte"
+account_id = "3dfc976bc353d09cdf3c5fae733863f5"
+
+main = "./.cloudflare/worker.js"
+site.bucket = "./.cloudflare/public"
+
+build.command = "npm run build"
+
+compatibility_date = "2021-11-12"
+workers_dev = true

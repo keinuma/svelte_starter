@@ -9,7 +9,8 @@ const config = {
 	},
 
 	plugins: [
-		require("@brainandbones/skeleton/tailwind.cjs")
+		require("@brainandbones/skeleton/tailwind.cjs"),
+		require('@tailwindcss/forms')
 	]
 };
 

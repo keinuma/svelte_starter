@@ -1,7 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<a href="/login">Login page</a>
+<div class="h-screen container mx-auto flex flex-col justify-center p-5">
+  <GradientHeading tag="h1" class="text-5xl">Svelte tutorial</GradientHeading>
+  <a class="mt-12" href="/login">ログイン</a>
+</div>
 
 <script lang="ts">
-    export let name: string;
+  import { GradientHeading } from '@brainandbones/skeleton';
 </script>

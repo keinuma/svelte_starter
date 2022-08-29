@@ -52,11 +52,13 @@
 <script lang="ts">
   import { Button } from '@brainandbones/skeleton';
   import { GradientHeading } from '@brainandbones/skeleton';
+  import { login } from '../../features/auth/auth';
 
   export let email = '';
   export let password = '';
 
-  export const handleLogin = () => {
-    console.log(email, password)
+  export const handleLogin = (e: Event) => {
+    e.preventDefault()
+    login(email, password)
   }
 </script>
